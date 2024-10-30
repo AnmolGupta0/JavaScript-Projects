@@ -1,0 +1,21 @@
+button{
+    height: 46px;
+    width: 170px;
+    font-size: 23px;
+    margin-left: 120px;
+    padding: 8px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    }
+    #guide{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    form{
+        height: 400px;
+        width: 400px;
+        background-color: #797978; 
+        margin-left: 500px;
+        padding: 20px;
+    }

@@ -4,34 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Color Changer</title>
-  <style>
-    button{
-      height: 100px;
-      width: 100px;
-      margin-top: 40px;
-      margin-bottom: 50px;
-      border: solid;
-      border-width: 2px;
-      
-    }
-    body{
-      text-align: center;
-      margin-top: 100px;
-    }
-    #grey {
-      background-color: grey;
-    }
-
-    #white {
-      background-color: white;
-    }
-    #blue {
-      background-color: blue;
-    }
-    #yellow {
-      background-color: yellow;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Color Scheme Switcher</h1>
@@ -43,34 +16,9 @@
 
     <h2>Try clicking on one of the colors above to change the background color of this page!</h2>
 
-</body>
-<script>
-  const buttons = document.querySelectorAll("button");
- 
-  const back = document.querySelector("body");
-  
-  buttons.forEach((button) => {
-    console.log(button)
-    button.addEventListener('click', (e) => {
 
-    if(e.target.id=='grey'){
-     back.style.backgroundColor = e.target.id;
-    }
-    if(e.target.id=='white'){
-      back.style.backgroundColor=e.target.id;
-    }
-    if(e.target.id=='blue'){
-      back.style.backgroundColor=e.target.id;
-    }
-    if(e.target.id=='yellow'){
-      back.style.backgroundColor=e.target.id;
-    }
-    if(e.target.id=='pink'){
-      back.style.backgroundColor=e.target.id;
-    }
-  })
- 
-  });
- 
-</script>
+   
+</body>
+<script src="script.js"></script>
+
 </html>
