@@ -1,4 +1,4 @@
-let randomNumber = parseInt(Math.random()*100 + 1);
+let randomNumber = parseInt(Math.random()*100+1);
 console.log(randomNumber)
 const submit = document.querySelector('.Submit');
 const userinput = document.querySelector('.userinput');
